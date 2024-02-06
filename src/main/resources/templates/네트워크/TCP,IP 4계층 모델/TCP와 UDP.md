@@ -22,6 +22,7 @@ TCP는 전송 계층(Transport Layer)에서 사용되는 프로토콜로, 신뢰
 <img src="https://blog.kakaocdn.net/dn/Eg7k6/btsEqYo7tQG/W4uRjlRO4LALtwimFCm2Wk/img.png" width="500">
 </details>
 <br>
+
 # UDP가 뭐야 ❓
 UDP는 또 다른 전송 계층 프로토콜로, TCP와 달리 연결을 설정하지 않고 데이터를 전송한다. 
 주요 특징은 다음과 같다.
