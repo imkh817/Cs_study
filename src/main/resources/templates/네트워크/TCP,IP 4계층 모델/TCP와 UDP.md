@@ -18,10 +18,10 @@ TCP는 전송 계층(Transport Layer)에서 사용되는 프로토콜로, 신뢰
 이로 인해 주로 파일 전송, 이메일 전송, 웹 브라우징 등과 같이 `신뢰성이 중요한 응용에서 사용`된다.<br>
 <details>
   <summary>가상회선 패킷 교환 방식</summary>
-가상회선 패킷 교환 방식은 각 패킷에는 가상회선 식별자가 포함되며 모든 패킷을 전송하면 가상회선이 해제되고 패킷들은 전송된 '순서대로' 도착하는 방식이다<br>
+
+가상회선 패킷 교환 방식은 각 패킷에는 가상회선 식별자가 포함되며 모든 패킷을 전송하면 가상회선이 해제되고 패킷들은 전송된 '순서대로' 도착하는 방식이다.<br><br>
 <img src="https://blog.kakaocdn.net/dn/Eg7k6/btsEqYo7tQG/W4uRjlRO4LALtwimFCm2Wk/img.png" width="500">
 </details>
-<br>
 
 # UDP가 뭐야 ❓
 UDP는 또 다른 전송 계층 프로토콜로, TCP와 달리 연결을 설정하지 않고 데이터를 전송한다. 
@@ -41,8 +41,9 @@ UDP는 또 다른 전송 계층 프로토콜로, TCP와 달리 연결을 설정�
 이로 인해 스트리밍 서비스, DNS 조회, 음성 통화 등에서 사용되며, 데이터의 빠른 전송이 중요한 경우에 적합하다.
 <details>
   <summary>데이터그램 패킷 교환 방식</summary>
+
 데이터그램 패킷 교환 방식은 패킷이 독립적으로 이동하며 최적의 경로를 선택하여 가는데, 하나의 메시지에서 분할된 여러 패킷은 서로 다른 경로로 전송될 수 있으며
-'도착한 순서가 다를 수' 있는 방식이다.<br>
+'도착한 순서가 다를 수' 있는 방식이다.<br><br>
 <img src="https://blog.kakaocdn.net/dn/INgsd/btsEuN8gVe6/YjisDxKGoJJa0UP5RbYzr1/img.png" width="500">
 </details>
 <br>
